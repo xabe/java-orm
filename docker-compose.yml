@@ -1,0 +1,11 @@
+version: 2 # specify docker-compose version
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_PASSWORD: password
+      MARIADB_DATABASE: jpa_demo
+      MARIADB_USER: user
