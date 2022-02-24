@@ -4,7 +4,7 @@ Vamos a usar los distintos ORM que tenemos para usar con Java:
 
 - [x] JPA with Hibernate
 - [x] Mybatis
-- [ ] Hibernate Reactive
+- [x] Hibernate Reactive
 
 Lo único que necesitamos es arrancar una base datos de MariaDB con los siguiente comandos
 

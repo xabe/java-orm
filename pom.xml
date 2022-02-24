@@ -12,13 +12,14 @@
   <modules>
     <module>jpa-hibernate</module>
     <module>mybatis</module>
+    <module>hibernate-reactive</module>
   </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <slf4j.version>2.0.0-alpha5</slf4j.version>
+    <slf4j.version>1.7.36</slf4j.version>
     <junit.jupiter.api.version>5.8.2</junit.jupiter.api.version>
     <mockito.version>4.2.0</mockito.version>
     <hamcrest.version>2.2</hamcrest.version>
@@ -42,12 +43,6 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>${slf4j.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-simple</artifactId>
       <version>${slf4j.version}</version>
     </dependency>
 

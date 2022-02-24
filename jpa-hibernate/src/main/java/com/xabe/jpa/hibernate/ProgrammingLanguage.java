@@ -13,7 +13,6 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Version;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Builder.Default;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -52,7 +51,7 @@ public class ProgrammingLanguage implements Serializable {
   @Version
   private int version;
 
-  public ProgrammingLanguage(String name, Integer rating){
+  public ProgrammingLanguage(final String name, final Integer rating) {
     this.name = name;
     this.rating = rating;
   }

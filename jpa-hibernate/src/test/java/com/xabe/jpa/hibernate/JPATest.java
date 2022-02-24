@@ -28,9 +28,9 @@ import org.slf4j.LoggerFactory;
 
 @TestMethodOrder(OrderAnnotation.class)
 @TestInstance(Lifecycle.PER_CLASS)
-public class JPAHibernateTest {
+public class JPATest {
 
-  private static final Logger LOGGER = LoggerFactory.getLogger(JPAHibernateTest.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(JPATest.class);
 
   //Only One
   private EntityManagerFactory entityManagerFactory;
